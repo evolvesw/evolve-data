@@ -9,7 +9,7 @@ namespace Evolve.Data;
 public interface IConnectionFactory
 {
     /// <summary>
-    /// Creates a new <see cref="IDvConnection"/> instance.
+    /// Creates a new <see cref="DbConnection"/> instance.
     /// </summary>
     DbConnection CreateConnection();
 

@@ -1,0 +1,21 @@
+<Project>
+    <PropertyGroup>
+        <Product>Evolve Data Access components</Product>
+        <Authors>Alexander Bocharov</Authors>
+        <Company>Alexander Bocharov</Company>
+        <Copyright>© Alexander Bocharov. All rights reserved.</Copyright>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/evolvesw/evolve-data</PackageProjectUrl>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>git://github.com/evolvesw/evolve-data</RepositoryUrl>
+        <PackageTags>evolve;evolve-data;data</PackageTags>
+        <NoWarn>$(NoWarn);CS1591</NoWarn>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+</Project>
